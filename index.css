@@ -1,0 +1,240 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Consolas", Helvetica, Arial, sans-serif;
+}
+
+body{
+	background-color: white;
+	color:white;
+}
+
+#container{
+	width: 80%;
+	border: 2px solid black;
+	margin: auto;
+	
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	background: salmon;
+	color: white;
+	margin: 1px solid black;
+}
+
+
+nav ul li {
+	float:left;
+	text-align: center;
+	height: 10px;
+	line-height: 10px;
+	margin: 20px;
+}
+
+a{
+	color: black;
+}
+
+
+ul{
+	float: left;
+    list-style-type: none; 
+    padding: 0; 
+    position: relative; 
+     left: 1%;
+}
+
+
+
+li a{
+	 padding: 10px; /* El padding añadirá separación entre los elementos */
+}
+
+nav{
+	background: khaki;
+	height: 50px;
+	border: 1px solid black;
+	padding-left: 200px;
+	
+
+	height: auto; 
+    margin: 0 auto; 
+    overflow: hidden;
+    text-align: left;
+    width: 960px;
+}
+
+
+.divider{
+	clear: both;
+}
+
+#articles{
+	width: 100%;
+	min-height: 400px;
+	float: left;
+	background: dimgrey;
+	text-align: center;
+
+}
+
+#estudios{
+	width: 100%;
+	min-height: 415px;
+	float: left;
+	background: dimgrey;
+	text-align: center;
+
+}
+
+#proyectos{
+	width: 100%;
+	min-height: 415px;
+	float: left;
+	background: dimgrey;
+	text-align: center;
+	color:white;
+
+}
+
+#intereses{
+	width: 100%;
+	min-height: 415px;
+	float: left;
+	background: dimgrey;
+	text-align: center;
+
+}
+
+#pasatiempos{
+	width: 100%;
+	min-height: 415px;
+	float: left;
+	background: dimgrey;
+	text-align: center;
+
+}
+
+#contacto{
+	width: 100%;
+	min-height: 415px;
+	float: left;
+	background: dimgrey;
+	text-align: center;
+
+}
+#navIndex{
+	float: center;
+	padding-top: 450px;
+	padding-right:1200px;
+	color: red;
+	list-style-type: none; 
+
+
+}
+
+table {
+	margin: 1px;
+	min-height: 150px;
+	color: white;
+	border: 2px solid black;
+	height: 100%;
+	width: 100%;
+	background-color: salmon;
+}
+
+#lista{
+	margin:0px;
+	min-height: 60px;
+	color: white;
+	border: 1px solid white;
+	height: 80%;
+	width: 98%;
+}
+
+aside{
+
+  margin: 0 auto;
+  width:300px;
+  height: 300px;
+  padding: 2em;
+  border: 2px solid black;
+  border-radius: 3em;
+  background-color: salmon;
+}
+
+
+label {
+  display: inline-block;
+  width:50px;
+  text-align: center;
+}
+
+input,textarea {
+  width: 300px;
+  border: 1px solid #999;
+}
+
+
+textarea:focus {
+  border-color:  red;
+}
+
+textarea {
+  height: 8em;
+}
+
+.button {
+  padding-left: 0px; 
+  margin: 23px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+footer{
+	line-height: 30px;
+	background: powderblue;
+	text-align: center;
+	color: black;
+	border:1px;
+}
+
+#fotoInicio{
+	width: 220px;
+	height: 300px;
+	border: 3px solid lemonchiffon;
+	margin: 10px;
+
+}
+
+#tablaPasatiempos{
+
+	margin: 1px;
+	min-height: 150px;
+	color: white;
+	border: 2px solid lemonchiffon;
+	height: 100%;
+	width: 100%;
+	background-color: salmon;
+}
+
+
+img{
+	width: 220px;
+	height: 250px;
+	border: 3px solid lemonchiffon;
+	margin: 10px;
+	
+}
+
+iframe{
+
+	border: 3px solid white;
+	margin: 3px;
+}
